@@ -1,0 +1,8 @@
+#!/usr/bin/sh
+
+TFENV_BIN=$HOME/.tfenv/bin
+TGENV_BIN=$HOME/.tgenv/bin
+
+[[ -d $TFENV_BIN ]] && export PATH="$TFENV_BIN:$PATH"
+[[ -d $TGENV_BIN ]] && export PATH="$TGENV_BIN:$PATH"
+
