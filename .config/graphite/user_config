@@ -1,5 +1,8 @@
 {
+  "tips": false,
+  "editor": "vim",
   "branchPrefix": "walk/",
+  "skipApplyingPrefixToNonGeneratedBranchNames": true,
   "branchDate": false,
-  "tips": false
+  "pager": ""
 }
